@@ -9,6 +9,6 @@ type Employee struct {
 	Email    string
 }
 
-func (t Employee) getName() string {
+func (t Employee) GetName() string {
 	return t.Name
 }
