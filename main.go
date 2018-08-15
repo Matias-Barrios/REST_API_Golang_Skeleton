@@ -16,4 +16,5 @@ func main() {
 
 	fmt.Println("Server up and running. Listening in port ", PORT)
 	log.Fatal(http.ListenAndServe(":"+strconv.Itoa(PORT), router.GetRouter()))
+
 }
